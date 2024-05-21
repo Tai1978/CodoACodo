@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="imagen-empresa">
+            <img src="./imagenes/Imagen1.png" alt="nombre empresa">
+        </div>
+        <div class="header-div">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinos.html" target="_blank">Destinos</a></li>
+                    <li><a href="ofertas.html" target="_blank">Ofertas</a></li>
+                    <li><a href="contacto.html" >Contacto</a></li>
+                   
+                </ul>
+            </nav>
+         </div>
+    </header>
+    
+    <main>
+        <h2>Contacto</h2>
+        <div>
+        <form class="formulario-contacto" id="user-form">
+            <div class="formulario-contacto1">
+                <label for="nickname">Nombre</label>
+                <input type="text" name="nickname" id="nickname" placeholder="Nombre">
+                <small class="error-text">Ingrese un monbre</small>
+            </div>
+            <div class="formulario-contacto1"> 
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="54-11-xxxxxxxx">
+                <small class="error-text">Ingrese un nro valido</small>
+             </div>
+             <div class="formulario-contacto1"> 
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="xx@xx.com">
+                <small class="error-text">Ingrese un email valido</small>
+            </div>
+            <div class="formulario-contacto1"> 
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escriba su mensaje"></textarea>
+            </div>
+            <div class="select-box">
+              <p>Horario para contactarse con ud</p>
+              <select>
+                <option>9 a 12 hs</option>
+                <option>13 a 16 hs</option>
+                <option>16 a 19 hs</option>
+               </select>
+            </div>
+            <div class="check-box">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Quiero recibir promociones de viajes</label> 
+            </div>
+                <button  class="btn" type="submit" id="submit-btn" disabled>Enviar</button>
+        </form>
+    </div>
+    </main>  
+    <footer>
+        <p>Copyright 2024©</p>
+        <div class="contacto">
+        <p>Contáctanos al <a href="#"><i class="bi bi-whatsapp"></i></a> o envía un correo a <a href="ayuda@hakuna-matata.com" target="_blank"><i class="bi bi-envelope"></i></a></p>
+        </div>
+        <div class="redes-sociales">
+            <p>Siguenos en redes</p>
+            <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="./js/contacto.js"></script>
+</body>
+</html>
