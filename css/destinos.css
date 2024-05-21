@@ -148,3 +148,23 @@ footer p {
 .bi {
     color: black;
 }
+
+
+@media screen and (max-width: 768px) {
+    header img {
+        height: 15%; 
+    }
+
+    .header-div nav ul li a {
+        font-size: 1em; 
+    }
+
+    .div-index {
+        font-size: 1em; 
+    }
+
+    footer p {
+        padding-top: 30px; 
+        padding-bottom: 30px; 
+    }
+}
